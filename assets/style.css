@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 1100px;
+    width: 90%;
     margin: auto;
     position: relative;
 }
@@ -52,10 +52,13 @@ body {
 }
 
 .bottom-content {
-    width: 70%;
+    width: 65%;
+    margin-right: 5%;
     float: left; 
-    background-color:#97d273;
-    opacity:0.5; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #6d8b73;
+    color: white;
 }
 
 .content-bottom {
