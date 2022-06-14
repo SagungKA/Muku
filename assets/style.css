@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Montserrat:wght@100&family=Nunito+Sans&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Lato:wght@300&family=Montserrat:wght@100&family=Nunito+Sans&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
+
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Encode Sans', sans-serif;
+} 
+
+.main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #6D8B74;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid #CDC2AE;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.colom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.colom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Encode Sans', sans-serif;
+    color: #6D8B74;
+}
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #6D8B74;
+    width: 100%;
+    line-height: 50px;
+}
+
+.about {
+    color: white;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.galeri-list {
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-galeri {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-galeri img {
+    width: 100%;
+    height: 80%;
+}
+
+#kontak {
+    background-color: #6D8B74;
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+
+.footer-kontak {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    line-height: 50px;
+    text-align: left;
+
+}
+
+.profilecard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aside {
+    float: right;
+    width: 25%;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .container {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+        float: center;
+
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: block;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-galeri {
+        display: 50%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .footer-section {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;
+        border-bottom:1px solid #333333;
+    }
+}
