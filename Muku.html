@@ -10,26 +10,28 @@
   <script src="assets/dropdown.js" defer></script>
 </head>
 
-<main>
-
-  <body>
-    <nav>
-      <div class="container">
-        <div class="logo"><a href=''>Muku</a></div>
-        <a href="#" class="tombol-menu">
-          <span class="garis"></span>
-          <span class="garis"></span>
-          <span class="garis"></span>
-        </a>
-        <div class="menu">
-          <ul>
-            <li><a href="#fasilitas">Fasiltas</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#galeri">Galeri</a></li>
-          </ul>
+<body>
+  <header>
+      <nav>
+        <div class="container">
+          <div class="logo"><a href=''>Muku</a></div>
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <div class="menu">
+            <ul>
+              <li><a href="#fasilitas">Fasiltas</a></li>
+              <li><a href="#agenda">Agenda</a></li>
+              <li><a href="#galeri">Galeri</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
     </nav>
+  </header>
+
+  <main>
     <div class="container">
       <!-- HOME -->
       <section id="beranda">
@@ -44,108 +46,98 @@
       </section>
 
       <!-- FASILITAS -->
-      <section id="fasilitas">
-        <div class="colom">
-          <h2>Fasilitas</h2>
-          <p>Fasilitas yang disediakan seperti Sewa Tempat, Pemandu Wisata, Layanan Manuskrip dan Perpustakaan.</p>
-          <br>
-          <p>Pengunjung bisa menikmati fasilitas yang ada dengan satu tiket saat dibeli di loket pembelian. Gedung
-            Pameran Temporer adalah fasilitas Kegiatan Kebudayaan. Bagi sebagian orang museum identik dengan benda-benda
-            diam yang tidak terjamah.
-          </p>
-        </div>
-        <img src="assets/image/gambar2.png" alt="gambar" width="450px" />
-      </section>
+      <article id="fasilitas" class="colom">
+        <img class="gambar-fasilitas" src="assets/image/gambar2.png" alt="gambar" width="450px" />
+        <h2>Fasilitas</h2>
+        <p>Fasilitas yang disediakan seperti Sewa Tempat, Pemandu Wisata, Layanan Manuskrip dan Perpustakaan.</p>
+        <br>
+        <p>Pengunjung bisa menikmati fasilitas yang ada dengan satu tiket saat dibeli di loket pembelian.
+        </p>
+        <p>Gedung Pameran Temporer adalah fasilitas Kegiatan Kebudayaan. </p>
+        <p>Bagi sebagian orang museum identik dengan benda-benda diam yang tidak terjamah.
+        </p>
+      </article>
 
       <!-- AGENDA -->
-      <section id="agenda">
-        <div class="agendamuseum">
-          <h2>Agenda</h2>
-          <p>Ruang Baru Imajinasi di Museum Nasional.</p>
-          <br>
-          <p>Dinding yang mengelilingi dan lantai yang dipijak menjadi layar yang memutar pertunjukan. Konten ImersifA
-            menampilkan sejarah Indonesia dalam konsep alam, masyarakat, sejarahdanbudaya dari masa ke masa. Di ruang
-            ini, pengunjung akan berpetualang, mengalami duniadari sudut pandang pelaku sejarah. Layaknya penjelajah,
-            pengunjung mengeksplorasi khasanahdankeanekaragaman alam Indonesia, seni dan budaya, kerukunan beragama
-            hingga pengalamaneksotik menembus batas berbagai motif-motif tradisional Indonesia yang tersebar di berbagai
-            koleksi museum, benda cagar budaya dan bangunan cagar budaya. Keseluruhan gambar danpenyajian menampilkan
-            ornamen dan bentuk-bentuk budaya Nusantara dengan musikyangdiaransemen modern, dengan melibatkan audio
-            visual untuk menciptakan sensasi pengalamanunik terutama penglihatan, suara dan imajinasi melalui bantuan
-            teknologi digital. Masing- masingpengunjung imersif akan merasakan pengalaman dan emosi yang bersifat
-            personal, dan setiaporangberkesempatan merasakan pemaknaan pribadi dan inspirasi.
-          </p>
-        </div>
-      </section>
+      <article id="agenda" class="agendamuseum">
+        <h2>Agenda</h2>
+        <p>Ruang Baru Imajinasi di Museum Nasional.</p>
+        <br>
+        <p>Dinding yang mengelilingi dan lantai yang dipijak menjadi layar yang memutar pertunjukan. Konten ImersifA
+          menampilkan sejarah Indonesia dalam konsep alam, masyarakat, sejarahdanbudaya dari masa ke masa. Di ruang
+          ini, pengunjung akan berpetualang, mengalami duniadari sudut pandang pelaku sejarah. Layaknya penjelajah,
+          pengunjung mengeksplorasi khasanahdankeanekaragaman alam Indonesia, seni dan budaya, kerukunan beragama
+          hingga pengalamaneksotik menembus batas berbagai motif-motif tradisional Indonesia yang tersebar di berbagai
+          koleksi museum, benda cagar budaya dan bangunan cagar budaya. Keseluruhan gambar danpenyajian menampilkan
+          ornamen dan bentuk-bentuk budaya Nusantara dengan musikyangdiaransemen modern, dengan melibatkan audio
+          visual untuk menciptakan sensasi pengalamanunik terutama penglihatan, suara dan imajinasi melalui bantuan
+          teknologi digital.
+        </p>
+      </article>
 
-      <!-- UNTUK GALERI -->
-      <section id="galeri">
-        <div class="tengah">
-          <div class="colom">
-            <h2>Galeri</h2>
-            <p>Ini adalah kolesi dari Museum Ku.</p>
-          </div>
-
-          <div class="galeri-list">
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri1.png" />
-            </div>
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri2.png" />
-            </div>
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri3.png" />
-            </div>
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri4.png" />
-            </div>
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri5.png" />
-            </div>
-            <div class="kartu-galeri">
-              <img src="assets/image/galeri6.png" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- GALERI -->
+      <article id="galeri" class="tengah">
+        <h2>Galeri</h2>
+        <p>Ini adalah kolesi dari Museum Ku.</p>
     </div>
-
-    <div class="bottom-layout">
-      <div class="bottom-content">
-        <div class="container-bottom">
-          <div class="content-bottom">
-            <h3>MuseumKu:</h3>
-            <p>"Museum Pemakan Seni"</p>
-          </div>
-          <div class="content-bottom">
-            <h3>Kontak:</h3>
-            <p>Jl. Yogyakarta No.50</p>
-          </div>
-          <div class="content-bottom">
-            <h3>Instagram:</h3>
-            <p>@Muku</p>
-          </div>
-        </div>
+    <br>
+    <div class="galeri-list">
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri1.png" />
       </div>
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri2.png" />
+      </div>
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri3.png" />
+      </div>
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri4.png" />
+      </div>
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri5.png" />
+      </div>
+      <div class="kartu-galeri">
+        <img src="assets/image/galeri6.png" />
+      </div>
+      </article>
 
-
-      <aside>
-        <div>
-          <div class="sidebar">
-            <h3>Biodata:</h3>
-            <img src="assets/image/profile.png" width="50px" />
-            <p>Nama: Sagung Kesuma A.</p>
-            <P>Nomor: 085855616030</P>
-            <p>Email: sagungkesuma.anggraini@gmail.com</p>
+      <div class="bottom-layout">
+        <div class="bottom-content">
+          <div class="container-bottom">
+            <div class="content-bottom">
+              <h3>MuseumKu:</h3>
+              <p>"Museum Pemakan Seni"</p>
+            </div>
+            <div class="content-bottom">
+              <h3>Kontak:</h3>
+              <p>Jl. Yogyakarta No.50</p>
+            </div>
+            <div class="content-bottom">
+              <h3>Instagram:</h3>
+              <p>@Muku</p>
+            </div>
           </div>
         </div>
+
+        <aside>
+          <div>
+            <div class="sidebar">
+              <h3>Biodata:</h3>
+              <img src="assets/image/profile.png" width="50px" />
+              <p>Nama: Sagung Kesuma A.</p>
+              <P>Nomor: 085855616030</P>
+              <p>Email: sagungkesuma.anggraini@gmail.com</p>
+            </div>
+          </div>
+      </div>
+      </aside>
+  </main>
+  <footer>
+    <div class="footer">
+      &copy; 2022. <b>MuseumKu.</b> All Rights Reserved
     </div>
-    </aside>
-</main>
-<footer>
-  <div class="footer">
-    &copy; 2022. <b>MuseumKu.</b> All Rights Reserved
-  </div>
-</footer>
+  </footer>
 </body>
 
 </html>
